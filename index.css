@@ -1,0 +1,450 @@
+body {
+  padding: 0;
+  margin: 0;
+}
+
+/* debut Header */
+.page-head {
+  display: flex;
+  justify-content: space-around;
+  position: sticky;
+  top: 0;
+  background-color: white;
+  align-items: center;
+
+}
+
+.nav-menu {
+  display: flex;
+  justify-content: space-around;
+  width: 250px;
+}
+
+li {
+  list-style-type: none;
+}
+
+.nav-menu a:hover {
+  color: #00b39b;
+
+}
+
+.nav-menu a {
+  text-decoration: none;
+  color: #ababab;
+}
+
+.dropdown {
+  postion: relative;
+
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+}
+
+.dropdown:hover .dropdown-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 170px;
+  width: 200px;
+  box-shadow: 0 0 4px 4px #f6f8f8;
+  padding: 0px;
+  background-color: white;
+  top: 44px;
+  right: 210px;
+
+}
+
+.dropdown-content a {
+  height: 50px;
+  display: flex;
+  align-items: center;
+  padding-left: 20px;
+
+}
+
+.dropdown-content a:hover {
+  background-color: #f6f8f8;
+
+}
+
+/* fin Header */
+
+/* debut section description */
+
+.title {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+}
+
+.title h1 {
+  color: #00b39b;
+  font-size: 35px;
+
+}
+
+.description-text {
+  display: flex;
+  justify-content: center;
+}
+
+.part-a,
+.part-b {
+  width: 450px;
+  color: #747474;
+  font-size: 18px
+}
+
+.part-a {
+  margin-right: 20px;
+}
+
+.part-b {
+  margin-left: 20px;
+}
+
+/* fin section description */
+
+/* debut section patients-doctors */
+.patients {
+  border-radius: 25px;
+  border: #00b39b;
+  background-color: #00b39b;
+  padding: 10px;
+  width: 410px;
+  margin-right: 15px;
+  overflow: hidden;
+}
+
+.patients h2 {
+  color: hsla(0, 0%, 100%, .7);
+  font-size: 15px;
+  font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+
+}
+
+.patients p {
+  color: white;
+  font-size: 1.25em;
+  ;
+  font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+}
+
+.choose-country {
+  border: 1px solid white;
+  border-radius: 8px;
+  width: 150px;
+  height: 40px;
+  text-align: center;
+  margin-left: 15px;
+}
+
+.choose-country:hover {
+  background-color: #d7f5f6;
+}
+
+.doctors {
+  display: flex;
+  flex-direction: column;
+  border-radius: 25px;
+  border: #3d83df;
+  background-color: #3d83df;
+  padding: 10px;
+  width: 410px;
+  overflow: hidden;
+  margin-left: 15px;
+}
+
+.doctors h2 {
+  color: hsla(0, 0%, 100%, .7);
+  font-size: 15px;
+  font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+  margin-bottom: 0px;
+}
+
+.doctors p {
+  color: white;
+  font-size: 1.25em;
+  ;
+  font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+}
+
+.patients-doctors {
+  display: flex;
+  justify-content: center;
+
+
+}
+
+.patients-image {
+  height: 250px;
+  width: 398px;
+  margin-left: -20px;
+
+}
+
+.doctors-image {
+  width: 530px;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.doctors-image img {
+
+  height: 250px;
+  width: 398px;
+
+}
+
+.image-choose {
+  display: flex;
+  width: 600px;
+}
+
+/* fin section patients-doctors */
+
+/* debut section global-company */
+.global-company {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.global-company h2 {
+  color: #00b39b;
+  font-size: 1.625em;
+}
+
+.svg-campany {
+  display: flex;
+  flex-flow: row wrap;
+  width: 800px;
+
+
+}
+
+.svg-campany li {
+  margin-right: 50px;
+}
+
+.global-company h2 {
+  margin-left: 170px;
+}
+
+a svg:hover {
+  fill: #00b39b;
+}
+
+/* fin section global-company */
+
+/* debut section platform */
+.platform {
+  background-color: #d7f5f6;
+  display: flex;
+  justify-content: space-around;
+  overflow: hidden;
+  height: 600px;
+  width: 100%;
+}
+
+.leader,
+.calendar,
+.visit,
+.solutions {
+  border: solid white;
+  border-radius: 15px;
+  background-color: white;
+  margin-top: 10px;
+  width: 230px;
+  height: 220px;
+  padding: 10px;
+  margin-bottom: 25px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.stat h4 {
+  font-size: 20px;
+  color: #00b39b;
+  font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+}
+
+.stat p {
+  font-size: 13px;
+  font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+  color: #747474;
+  text-align: center;
+}
+
+.platform-descp h3 {
+  color: #00b39b;
+  font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+  font-size: 25px;
+}
+
+.platform-descp p {
+  font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+  color: #747474;
+  font-size: 15px;
+}
+
+.descp-head {
+  width: 430px;
+  margin-left: 150px;
+  margin-top: 100px;
+}
+
+.big-logo-docplanner {
+  margin-top: 50px;
+}
+
+.stat {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin-right: 150px;
+}
+
+.stat-right {
+  margin-top: 50px;
+  margin-right: 20px;
+}
+
+.stat-left {
+  margin-top: 20px;
+
+}
+
+/* fin section platform */
+
+/* debut section vision */
+
+.vision-description {
+  text-align: center;
+  display: flex;
+  margin: auto;
+  flex-direction: column;
+  width: 500px;
+}
+
+.vision-description h4 {
+  color: #00b39b;
+  font-size: 30px;
+  font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+  margin-bottom: 15px;
+}
+
+.vision-description p {
+  color: #747474;
+  font-size: 14px;
+  font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+  margin-bottom: 70px;
+}
+
+.warsaw,
+.barcelona,
+.istanbul,
+.rome,
+.mexico,
+.curitiba {
+  border: 2.5px solid #f7f7f7;
+  border-radius: 10px;
+  overflow: hidden;
+  margin-bottom: 30px;
+}
+
+.footer-warsaw,
+.footer-barcelona,
+.footer-istanbul,
+.footer-rome,
+.footer-mexico,
+.footer-curitiba {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+
+}
+
+.cities {
+  display: flex;
+}
+
+.cities input {
+  color: white;
+  background-color: #3d83df;
+  border: 2px solid #3d83df;
+  border-radius: 10px;
+  height: 30px;
+  font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+  font-size: 12px;
+  text-align: center;
+}
+
+.cities p {
+  color: #747474;
+  font-size: 16px;
+  font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+}
+
+.cities a {
+  text-decoration: none;
+}
+
+.cities {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin-left: 180px;
+  margin-right: 180px;
+  margin-bottom: 60px;
+}
+
+.warsaw:hover,
+.barcelona:hover,
+.istanbul:hover,
+.rome:hover,
+.mexico:hover,
+.curitiba:hover {
+  box-shadow: 10px 10px 10px 10px #f6f8f8;
+}
+
+/* fin section vision */
+
+/* debut section footer */
+footer {
+  text-align: center;
+  font-size: 12px;
+  color: #ababab;
+  text-decoration: none;
+  border-top: 2px solid #f7f7f7;
+}
+
+footer a {
+  text-decoration: none;
+  color: #3d83df;
+  font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+  font-size: 12px;
+}
+
+footer a:hover {
+  text-decoration: underline;
+}
+
+/* fin section footer */
+.main-body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* media*/
